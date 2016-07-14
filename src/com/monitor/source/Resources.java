@@ -8,7 +8,7 @@ public class Resources {
  
 	static {
 		try {
-			enemy1PNG = ImageIO.read(Resources.class.getResourceAsStream("Image/en1.png"));
+			enemy1PNG = ImageIO.read(Resources.class.getResourceAsStream("/en1.png"));
 			enemy2PNG = ImageIO.read(Resources.class
 					.getResourceAsStream("/en2.png"));
 			enemy3PNG = ImageIO.read(Resources.class
